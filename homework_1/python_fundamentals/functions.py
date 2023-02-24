@@ -11,7 +11,6 @@ def cobb_douglas(K, L):
 print(cobb_douglas(0.5, 0.75))
 
 ## Assignment 2
-
 def variance(L):
   average = sum(L) / len(L)
   return sum([(x - average)**2 for x in L]) / (len(L) - 1)
